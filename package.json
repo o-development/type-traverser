@@ -1,0 +1,37 @@
+{
+  "name": "simple-library-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage",
+    "docs": "typedoc",
+    "prepublishOnly": "npm run test && npm run build && npm run docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-development/type-traverser.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/o-development/type-traverser/issues"
+  },
+  "homepage": "https://github.com/o-development/type-traverser#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.2.0",
+    "typedoc": "^0.21.5",
+    "typedoc-plugin-markdown": "^3.10.4",
+    "typescript": "^4.3.5"
+  }
+}
