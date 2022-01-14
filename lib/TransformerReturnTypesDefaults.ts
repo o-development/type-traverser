@@ -47,7 +47,7 @@ export type HackilyApplyConditionalPropertyDefaults<
   PropertiesInputRetunType extends InterfacePropertiesInputReturnType<Type>,
   PropertyName extends keyof Type["type"],
   FallbackKey extends keyof Types
-> = undefined extends PropertiesInputRetunType[PropertyName]
+> = unknown extends PropertiesInputRetunType[PropertyName]
   ? ApplyArrayAndUndefined<
       Type["type"][PropertyName],
       RecursivelyFindReturnType<

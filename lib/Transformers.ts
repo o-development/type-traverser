@@ -26,9 +26,11 @@ export type InterfaceTransformerFunction<
   Context
 > = (
   originalData: Type["type"],
-  getTransformedChildren: GetTransformedChildrenFunction<{
-    [PropertyName in keyof ReturnType["properties"]]: ReturnType["properties"][PropertyName];
-  }>,
+  getTransformedChildren: GetTransformedChildrenFunction<
+    {
+      [PropertyName in keyof ReturnType["properties"]]: ReturnType["properties"][PropertyName];
+    }
+  >,
   setReturnPointer: SetReturnPointerFunction<ReturnType["return"]>,
   context: Context
 ) => Promise<ReturnType["return"]>;
@@ -165,16 +167,18 @@ export type InterfaceTransformerInputDefinition<
   Context
 > = {
   transformer: InterfaceTransformerFunction<Types, Type, ReturnType, Context>;
-  properties?: Partial<{
-    [PropertyName in keyof Type["properties"]]: InterfaceTransformerPropertyFunction<
-      Types,
-      Type,
-      ReturnTypes,
-      ReturnType,
-      PropertyName,
-      Context
-    >;
-  }>;
+  properties?: Partial<
+    {
+      [PropertyName in keyof Type["properties"]]: InterfaceTransformerPropertyFunction<
+        Types,
+        Type,
+        ReturnTypes,
+        ReturnType,
+        PropertyName,
+        Context
+      >;
+    }
+  >;
 };
 
 export type UnionTransformerInputDefinition<
@@ -234,10 +238,12 @@ export type TransformersInput<
     Types,
     InputReturnTypes
   >
-> = Partial<{
-  [TypeName in keyof ReturnTypes]: undefined extends InputReturnTypes[TypeName]
-    ?
-        | TransformerInputDefinition<Types, ReturnTypes, TypeName, Context>
-        | undefined
-    : TransformerInputDefinition<Types, ReturnTypes, TypeName, Context>;
-}>;
+> = Partial<
+  {
+    [TypeName in keyof ReturnTypes]: undefined extends InputReturnTypes[TypeName]
+      ?
+          | TransformerInputDefinition<Types, ReturnTypes, TypeName, Context>
+          | undefined
+      : TransformerInputDefinition<Types, ReturnTypes, TypeName, Context>;
+  }
+>;
