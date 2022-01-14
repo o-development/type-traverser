@@ -1,7 +1,7 @@
 {
   "name": "type-traverser",
   "version": "0.0.1",
-  "description": "",
+  "description": "An organized way to traverse over objects using typescript",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",

@@ -79,7 +79,7 @@
 
 #### Defined in
 
-[TransformerReturnTypesDefaults.ts:37](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypesDefaults.ts#L37)
+[TransformerReturnTypesDefaults.ts:37](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypesDefaults.ts#L37)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypesDefaults.ts:93](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypesDefaults.ts#L93)
+[TransformerReturnTypesDefaults.ts:93](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypesDefaults.ts#L93)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypesDefaults.ts:124](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypesDefaults.ts#L124)
+[TransformerReturnTypesDefaults.ts:124](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypesDefaults.ts#L124)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypesDefaults.ts:164](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypesDefaults.ts#L164)
+[TransformerReturnTypesDefaults.ts:164](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypesDefaults.ts#L164)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypesDefaults.ts:175](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypesDefaults.ts#L175)
+[TransformerReturnTypesDefaults.ts:175](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypesDefaults.ts#L175)
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypesDefaults.ts:205](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypesDefaults.ts#L205)
+[TransformerReturnTypesDefaults.ts:205](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypesDefaults.ts#L205)
 
 ___
 
@@ -212,7 +212,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypesDefaults.ts:147](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypesDefaults.ts#L147)
+[TransformerReturnTypesDefaults.ts:147](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypesDefaults.ts#L147)
 
 ___
 
@@ -229,7 +229,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypesDefaults.ts:34](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypesDefaults.ts#L34)
+[TransformerReturnTypesDefaults.ts:34](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypesDefaults.ts#L34)
 
 ___
 
@@ -246,7 +246,7 @@ ___
 
 #### Defined in
 
-[UtilTypes.ts:3](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/UtilTypes.ts#L3)
+[UtilTypes.ts:3](https://github.com/o-development/type-traverser/blob/db4e358/lib/UtilTypes.ts#L3)
 
 ___
 
@@ -263,7 +263,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypes.ts:56](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypes.ts#L56)
+[TransformerReturnTypes.ts:56](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypes.ts#L56)
 
 ___
 
@@ -280,7 +280,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypes.ts:19](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypes.ts#L19)
+[TransformerReturnTypes.ts:19](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypes.ts#L19)
 
 ___
 
@@ -296,7 +296,7 @@ ___
 
 #### Defined in
 
-[TraverserTypes.ts:23](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TraverserTypes.ts#L23)
+[TraverserTypes.ts:23](https://github.com/o-development/type-traverser/blob/db4e358/lib/TraverserTypes.ts#L23)
 
 ___
 
@@ -318,13 +318,13 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypesDefaults.ts:65](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypesDefaults.ts#L65)
+[TransformerReturnTypesDefaults.ts:65](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypesDefaults.ts#L65)
 
 ___
 
 ### HackilyApplyConditionalPropertyDefaults
 
-Ƭ **HackilyApplyConditionalPropertyDefaults**<`Types`, `InputReturnTypes`, `VisitedTypeNames`, `Type`, `PropertiesInputRetunType`, `PropertyName`, `FallbackKey`\>: `undefined` extends `PropertiesInputRetunType`[`PropertyName`] ? [`ApplyArrayAndUndefined`](modules.md#applyarrayandundefined)<`Type`[``"type"``][`PropertyName`], [`RecursivelyFindReturnType`](modules.md#recursivelyfindreturntype)<`Types`, `InputReturnTypes`, `FallbackKey`, `VisitedTypeNames`\>\> : [`ApplyUndefined`](modules.md#applyundefined)<`Type`[``"type"``][`PropertyName`], `PropertiesInputRetunType`[`PropertyName`]\>
+Ƭ **HackilyApplyConditionalPropertyDefaults**<`Types`, `InputReturnTypes`, `VisitedTypeNames`, `Type`, `PropertiesInputRetunType`, `PropertyName`, `FallbackKey`\>: `unknown` extends `PropertiesInputRetunType`[`PropertyName`] ? [`ApplyArrayAndUndefined`](modules.md#applyarrayandundefined)<`Type`[``"type"``][`PropertyName`], [`RecursivelyFindReturnType`](modules.md#recursivelyfindreturntype)<`Types`, `InputReturnTypes`, `FallbackKey`, `VisitedTypeNames`\>\> : [`ApplyUndefined`](modules.md#applyundefined)<`Type`[``"type"``][`PropertyName`], `PropertiesInputRetunType`[`PropertyName`]\>
 
 #### Type parameters
 
@@ -340,7 +340,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypesDefaults.ts:42](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypesDefaults.ts#L42)
+[TransformerReturnTypesDefaults.ts:42](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypesDefaults.ts#L42)
 
 ___
 
@@ -363,7 +363,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypes.ts:43](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypes.ts#L43)
+[TransformerReturnTypes.ts:43](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypes.ts#L43)
 
 ___
 
@@ -381,7 +381,7 @@ Input
 
 #### Defined in
 
-[TransformerReturnTypes.ts:37](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypes.ts#L37)
+[TransformerReturnTypes.ts:37](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypes.ts#L37)
 
 ___
 
@@ -404,7 +404,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypes.ts:4](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypes.ts#L4)
+[TransformerReturnTypes.ts:4](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypes.ts#L4)
 
 ___
 
@@ -427,7 +427,7 @@ ___
 
 #### Defined in
 
-[TraverserDefinition.ts:4](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TraverserDefinition.ts#L4)
+[TraverserDefinition.ts:4](https://github.com/o-development/type-traverser/blob/db4e358/lib/TraverserDefinition.ts#L4)
 
 ___
 
@@ -452,7 +452,7 @@ ___
 
 #### Defined in
 
-[Visitors.ts:20](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L20)
+[Visitors.ts:20](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L20)
 
 ___
 
@@ -485,7 +485,7 @@ ___
 
 #### Defined in
 
-[Visitors.ts:4](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L4)
+[Visitors.ts:4](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L4)
 
 ___
 
@@ -512,7 +512,7 @@ Input
 
 #### Defined in
 
-[Visitors.ts:77](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L77)
+[Visitors.ts:77](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L77)
 
 ___
 
@@ -546,7 +546,7 @@ ___
 
 #### Defined in
 
-[Visitors.ts:10](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L10)
+[Visitors.ts:10](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L10)
 
 ___
 
@@ -556,7 +556,7 @@ ___
 
 #### Defined in
 
-[UtilTypes.ts:1](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/UtilTypes.ts#L1)
+[UtilTypes.ts:1](https://github.com/o-development/type-traverser/blob/db4e358/lib/UtilTypes.ts#L1)
 
 ___
 
@@ -572,7 +572,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypes.ts:52](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypes.ts#L52)
+[TransformerReturnTypes.ts:52](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypes.ts#L52)
 
 ___
 
@@ -588,7 +588,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypes.ts:15](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypes.ts#L15)
+[TransformerReturnTypes.ts:15](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypes.ts#L15)
 
 ___
 
@@ -604,7 +604,7 @@ ___
 
 #### Defined in
 
-[TraverserDefinition.ts:16](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TraverserDefinition.ts#L16)
+[TraverserDefinition.ts:16](https://github.com/o-development/type-traverser/blob/db4e358/lib/TraverserDefinition.ts#L16)
 
 ___
 
@@ -621,7 +621,7 @@ ___
 
 #### Defined in
 
-[Visitors.ts:53](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L53)
+[Visitors.ts:53](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L53)
 
 ___
 
@@ -653,7 +653,7 @@ ___
 
 #### Defined in
 
-[Visitors.ts:48](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L48)
+[Visitors.ts:48](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L48)
 
 ___
 
@@ -670,7 +670,7 @@ ___
 
 #### Defined in
 
-[Visitors.ts:99](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L99)
+[Visitors.ts:99](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L99)
 
 ___
 
@@ -689,7 +689,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypesDefaults.ts:15](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypesDefaults.ts#L15)
+[TransformerReturnTypesDefaults.ts:15](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypesDefaults.ts#L15)
 
 ___
 
@@ -705,7 +705,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypes.ts:67](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypes.ts#L67)
+[TransformerReturnTypes.ts:67](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypes.ts#L67)
 
 ___
 
@@ -721,7 +721,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypes.ts:30](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypes.ts#L30)
+[TransformerReturnTypes.ts:30](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypes.ts#L30)
 
 ___
 
@@ -737,7 +737,7 @@ ___
 
 #### Defined in
 
-[TraverserDefinition.ts:20](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TraverserDefinition.ts#L20)
+[TraverserDefinition.ts:20](https://github.com/o-development/type-traverser/blob/db4e358/lib/TraverserDefinition.ts#L20)
 
 ___
 
@@ -753,7 +753,7 @@ ___
 
 #### Defined in
 
-[TraverserTypes.ts:28](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TraverserTypes.ts#L28)
+[TraverserTypes.ts:28](https://github.com/o-development/type-traverser/blob/db4e358/lib/TraverserTypes.ts#L28)
 
 ___
 
@@ -769,7 +769,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypes.ts:48](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypes.ts#L48)
+[TransformerReturnTypes.ts:48](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypes.ts#L48)
 
 ___
 
@@ -785,7 +785,7 @@ ___
 
 #### Defined in
 
-[TransformerReturnTypes.ts:11](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TransformerReturnTypes.ts#L11)
+[TransformerReturnTypes.ts:11](https://github.com/o-development/type-traverser/blob/db4e358/lib/TransformerReturnTypes.ts#L11)
 
 ___
 
@@ -808,7 +808,7 @@ ___
 
 #### Defined in
 
-[TraverserDefinition.ts:11](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TraverserDefinition.ts#L11)
+[TraverserDefinition.ts:11](https://github.com/o-development/type-traverser/blob/db4e358/lib/TraverserDefinition.ts#L11)
 
 ___
 
@@ -826,7 +826,7 @@ ___
 
 #### Defined in
 
-[Visitors.ts:42](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L42)
+[Visitors.ts:42](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L42)
 
 ___
 
@@ -859,7 +859,7 @@ ___
 
 #### Defined in
 
-[Visitors.ts:36](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L36)
+[Visitors.ts:36](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L36)
 
 ___
 
@@ -877,7 +877,7 @@ ___
 
 #### Defined in
 
-[Visitors.ts:93](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L93)
+[Visitors.ts:93](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L93)
 
 ___
 
@@ -893,7 +893,7 @@ ___
 
 #### Defined in
 
-[TraverserTypes.ts:32](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/TraverserTypes.ts#L32)
+[TraverserTypes.ts:32](https://github.com/o-development/type-traverser/blob/db4e358/lib/TraverserTypes.ts#L32)
 
 ___
 
@@ -911,7 +911,7 @@ ___
 
 #### Defined in
 
-[Visitors.ts:58](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L58)
+[Visitors.ts:58](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L58)
 
 ___
 
@@ -929,7 +929,7 @@ ___
 
 #### Defined in
 
-[Visitors.ts:104](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L104)
+[Visitors.ts:104](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L104)
 
 ___
 
@@ -946,7 +946,7 @@ ___
 
 #### Defined in
 
-[Visitors.ts:70](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L70)
+[Visitors.ts:70](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L70)
 
 ___
 
@@ -963,4 +963,4 @@ ___
 
 #### Defined in
 
-[Visitors.ts:116](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Visitors.ts#L116)
+[Visitors.ts:116](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitors.ts#L116)

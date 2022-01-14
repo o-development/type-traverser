@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[Traverser.ts:18](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Traverser.ts#L18)
+[Traverser.ts:18](https://github.com/o-development/type-traverser/blob/db4e358/lib/Traverser.ts#L18)
 
 ## Properties
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-[Traverser.ts:16](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Traverser.ts#L16)
+[Traverser.ts:16](https://github.com/o-development/type-traverser/blob/db4e358/lib/Traverser.ts#L16)
 
 ## Methods
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[Traverser.ts:22](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Traverser.ts#L22)
+[Traverser.ts:22](https://github.com/o-development/type-traverser/blob/db4e358/lib/Traverser.ts#L22)
 
 ___
 
@@ -106,4 +106,4 @@ ___
 
 #### Defined in
 
-[Traverser.ts:32](https://github.com/o-development/type-traverser/blob/c9fa11c/lib/Traverser.ts#L32)
+[Traverser.ts:32](https://github.com/o-development/type-traverser/blob/db4e358/lib/Traverser.ts#L32)
