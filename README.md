@@ -214,7 +214,6 @@ At this point I'd like to welcome everyone who was linked to this section from a
 From now on, we will detail how to use an already defined traverser using sample data about the fictional universe of "Avatar: The Last Airbender." If you came here from another library, your traverser will be different, but the concepts are the same. So far we have the following:
 
 ```typescript
-```typescript
 type Element = "Water" | "Earth" | "Fire" | "Air";
 interface Bender {
   name: string;
