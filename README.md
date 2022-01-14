@@ -1,6 +1,6 @@
 # Type Traverser
 
-An organized ways to traverse objects using typescript.
+An organized way to traverse objects using typescript.
 
 ## Installation
 ```
@@ -8,9 +8,9 @@ npm i type-traverser
 ```
 
 ## Why use this library?
-Have you ever needed a traverse large, complex objects? Chances are you built traversers to recognize when something is an array or a certain kind of record.
+Have you ever needed to traverse large, complex objects? Chances are you built traversers to recognize when something is an array or a certain kind of record.
 
-Building traversers is an arduous process that involves a lot of repeated concepts and repeated code. Type-Traverser minimizes the amount of repetition.
+Building traversers is an arduous process that involves a lot of repeated concepts and repeated code. Type-Traverser minimizes the repetition.
 
 ## Tutorial
 
@@ -135,7 +135,7 @@ Bender: {
 };
 ```
 
-There are three fields for the primitive sub-traverser:
+There are three fields for the interface sub-traverser:
  - `kind`: Must be `"interface"` to denote that this defines a interface sub-traverser.
  - `type`: The typescript type corresponding to this inteface or object type.
  - `properties`: Defines the properties that should be traversed by mapping the property name to its corresponding TypeName. Not all interface properties need to be listed here, only the ones that should be traversed. If no properties from this interface need to be traversed, you either provide `properties: Record<string, never>` or use a "Primitive" sub-traverser.
@@ -346,7 +346,7 @@ await avatarVisitor.visit(aang, "Bender", undefined);
 
 The `visit` method takes in three arguments:
  - The data that should be traversed. In this example the "aang" object.
- - The TypeName of the data. In this example `"Bender"` because the "aang" object is a `Bender`. `"Person"` would have also been acceptible.
+ - The TypeName of the data. In this example `"Bender"` because the "aang" object is a `Bender`. `"Person"` would have also been acceptable.
  - The context (described in the next section)
 
 Note: You DO NOT need to define a visitor function for every TypeName, only the ones you care about.
@@ -375,10 +375,10 @@ console.log(countContext.numberOfBenders); // Logs 2
 
 In this example, we want to count the number of "Benders" we encounter while traversing our object.
 
-`traverser.createVisitor` accepts one generic defining the type of the context and the t
+`traverser.createVisitor` accepts one generic defining the type of the context.
 
 ### Using a Transformer
-Somtimes you don't want to just visit an object, you want to transform it into something else. A Transformer is the best way to do that.
+Sometimes you don't want to just visit an object, you want to transform it into something else. A Transformer is the best way to do that.
 
 In the following example, we want to transform our data into a graph of `ActionablePerson` as defined by this interface:
 
@@ -496,7 +496,7 @@ For each TypeName you wish to transform, you can provide return type. In this ex
 
 Interface types may also provide the return types for their individual properties, as seen in the `Bender` type. Though, this is not required.
 
-Note: You don't need to define the return type for every TypeName and property. This libraries typings will recursively search for the correct return type based on the input you have given and display that in the tooltip. In the example below, the "Bender" translator knows that the `friends` property is an `ActionablePerson[]` not because the `friends` property was defined in the return types, but because it has deduced that the `friends` field is linked the the `Person` type which itself is made up of the `Bender` and `NonBender` types, and both those types have a return type of `ActionablePerson`.
+Note: You don't need to define the return type for every TypeName and property. This library's typings will recursively search for the correct return type based on the input you have given and display that in the tooltip. In the example below, the "Bender" translator knows that the `friends` property is an `ActionablePerson[]` not because the `friends` property was defined in the return types, but because it has deduced that the `friends` field is linked the the `Person` type which itself is made up of the `Bender` and `NonBender` types, and both those types have a return type of `ActionablePerson`.
 
 ![Return Type Tooltip](/tutorialImages/ReturnTypeTooltip.png)
 
@@ -516,10 +516,10 @@ const avatarTransformer = avatarTraverser.createTransformer<
 });
 ```
 
-A primitive transformer receives an "item" corresponding to its type and a context and must return it's defined return type.
+A primitive transformer receives an "item" corresponding to its type and a context and must return its defined return type.
 
 #### Interface Transformer
-An Interface transformer allows you to transform not only the base interface object, but the properties of that object as well. In this example, `Bender` is an interface:
+An interface transformer allows you to transform not only the base interface object, but the properties of that object as well. In this example, `Bender` is an interface:
 
 ```typescript
 const avatarTransformer = avatarTraverser.createTransformer<
@@ -599,7 +599,7 @@ A transformer must return its defined return type. For example, the transformer 
 Note: The above example transformer is actually not needed as it simply returns a duplicate of the value provided by `getTransformedChildren`. If a transformer is not provided, by default, this library will pass on the values from `getTransformedChildren`.
 
 #### Preventing Circular Recursion
-Our example data is circular - it loops back on itself. If I were to call `aang.friends[0].friends[0]`, I would once again be at the Aang object. This is very useful when visiting the objects, but it poses a problem when we want to transform them. The aang transformer needs to wait for the sokka and katara objects to be transformed in order for it to transform itself. But the sokka object needs to wait for the aang and katara object to be transformed. The same is true for the katara object. So, if this is the case where do you begin.
+Our example data is circular - it loops back on itself. If I were to call `aang.friends[0].friends[0]`, I would once again be at the aang object. This is very useful when visiting the objects, but it poses a problem when we want to transform them. The aang transformer needs to wait for the sokka and katara objects to be transformed in order for it to transform itself. But the sokka object needs to wait for the aang and katara object to be transformed. The same is true for the katara object. So, if this is the case where do you begin?
 
 Recall the way we defined this data in the first place:
 
@@ -667,8 +667,8 @@ result.friends[1].doAction();
 ```
 
 The `transform` function takes in three arguments:
- - The data that should be traversed. In this example the "aang" object.
- - The TypeName of the data. In this example `"Bender"` because the "aang" object is a `Bender`. `"Person"` would have also been acceptible.
+ - The data that should be traversed. In this example the aang object.
+ - The TypeName of the data. In this example `"Bender"` because the aang object is a `Bender`. `"Person"` would have also been acceptable.
  - The context (see the "Using Context" section for more)
 
 The transform method returns the return type corresponding to the TypeName. In this case, it returns `ActionablePerson` because that is the return type for `Bender`.
