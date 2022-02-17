@@ -55,7 +55,7 @@ export async function transformerUnionSubTraverser<
             itemSpecificTypeName,
             executingPromises
           );
-          const toReturn = transformerParentSubTraverser(
+          const toReturn = await transformerParentSubTraverser(
             item,
             itemSpecificTypeName,
             globals

@@ -53,7 +53,7 @@
 
 #### Defined in
 
-[Transformer.ts:48](https://github.com/o-development/type-traverser/blob/db4e358/lib/Transformer.ts#L48)
+[Transformer.ts:48](https://github.com/o-development/type-traverser/blob/1da0848/lib/Transformer.ts#L48)
 
 ## Properties
 
@@ -63,7 +63,7 @@
 
 #### Defined in
 
-[Transformer.ts:42](https://github.com/o-development/type-traverser/blob/db4e358/lib/Transformer.ts#L42)
+[Transformer.ts:42](https://github.com/o-development/type-traverser/blob/1da0848/lib/Transformer.ts#L42)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[Transformer.ts:41](https://github.com/o-development/type-traverser/blob/db4e358/lib/Transformer.ts#L41)
+[Transformer.ts:41](https://github.com/o-development/type-traverser/blob/1da0848/lib/Transformer.ts#L41)
 
 ## Methods
 
@@ -101,7 +101,7 @@ ___
 
 #### Defined in
 
-[Transformer.ts:99](https://github.com/o-development/type-traverser/blob/db4e358/lib/Transformer.ts#L99)
+[Transformer.ts:99](https://github.com/o-development/type-traverser/blob/1da0848/lib/Transformer.ts#L99)
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 #### Defined in
 
-[Transformer.ts:56](https://github.com/o-development/type-traverser/blob/db4e358/lib/Transformer.ts#L56)
+[Transformer.ts:56](https://github.com/o-development/type-traverser/blob/1da0848/lib/Transformer.ts#L56)
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 #### Defined in
 
-[Transformer.ts:170](https://github.com/o-development/type-traverser/blob/db4e358/lib/Transformer.ts#L170)
+[Transformer.ts:170](https://github.com/o-development/type-traverser/blob/1da0848/lib/Transformer.ts#L170)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-[Transformer.ts:184](https://github.com/o-development/type-traverser/blob/db4e358/lib/Transformer.ts#L184)
+[Transformer.ts:184](https://github.com/o-development/type-traverser/blob/1da0848/lib/Transformer.ts#L184)
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 #### Defined in
 
-[Transformer.ts:141](https://github.com/o-development/type-traverser/blob/db4e358/lib/Transformer.ts#L141)
+[Transformer.ts:141](https://github.com/o-development/type-traverser/blob/1da0848/lib/Transformer.ts#L141)
 
 ___
 
@@ -231,4 +231,4 @@ ___
 
 #### Defined in
 
-[Transformer.ts:221](https://github.com/o-development/type-traverser/blob/db4e358/lib/Transformer.ts#L221)
+[Transformer.ts:221](https://github.com/o-development/type-traverser/blob/1da0848/lib/Transformer.ts#L221)

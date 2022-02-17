@@ -55,7 +55,9 @@ export class CircularDepenedencyAwaiter {
     nextNodes.forEach((nextItem, nextItemName) => {
       if (subjectItem === nextItem && subjectItemName === nextItemName) {
         throw new Error(
-          `Circular dependency found. Use the 'setReturnPointer' function.`
+          `Circular dependency found. Use the 'setReturnPointer' function. The loop includes the '${
+            subjectItemName as string
+          }' type`
         );
       }
       this.checkForCircuit(

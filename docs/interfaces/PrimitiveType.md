@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[TraverserTypes.ts:19](https://github.com/o-development/type-traverser/blob/db4e358/lib/TraverserTypes.ts#L19)
+[TraverserTypes.ts:19](https://github.com/o-development/type-traverser/blob/1da0848/lib/TraverserTypes.ts#L19)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[TraverserTypes.ts:20](https://github.com/o-development/type-traverser/blob/db4e358/lib/TraverserTypes.ts#L20)
+[TraverserTypes.ts:20](https://github.com/o-development/type-traverser/blob/1da0848/lib/TraverserTypes.ts#L20)

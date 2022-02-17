@@ -51,7 +51,7 @@
 
 #### Defined in
 
-[Visitor.ts:33](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitor.ts#L33)
+[Visitor.ts:33](https://github.com/o-development/type-traverser/blob/1da0848/lib/Visitor.ts#L33)
 
 ## Properties
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-[Visitor.ts:30](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitor.ts#L30)
+[Visitor.ts:30](https://github.com/o-development/type-traverser/blob/1da0848/lib/Visitor.ts#L30)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[Visitor.ts:31](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitor.ts#L31)
+[Visitor.ts:31](https://github.com/o-development/type-traverser/blob/1da0848/lib/Visitor.ts#L31)
 
 ## Methods
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[Visitor.ts:66](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitor.ts#L66)
+[Visitor.ts:66](https://github.com/o-development/type-traverser/blob/1da0848/lib/Visitor.ts#L66)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[Visitor.ts:41](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitor.ts#L41)
+[Visitor.ts:41](https://github.com/o-development/type-traverser/blob/1da0848/lib/Visitor.ts#L41)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[Visitor.ts:98](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitor.ts#L98)
+[Visitor.ts:98](https://github.com/o-development/type-traverser/blob/1da0848/lib/Visitor.ts#L98)
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 #### Defined in
 
-[Visitor.ts:87](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitor.ts#L87)
+[Visitor.ts:87](https://github.com/o-development/type-traverser/blob/1da0848/lib/Visitor.ts#L87)
 
 ___
 
@@ -197,7 +197,7 @@ ___
 
 #### Defined in
 
-[Visitor.ts:109](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitor.ts#L109)
+[Visitor.ts:109](https://github.com/o-development/type-traverser/blob/1da0848/lib/Visitor.ts#L109)
 
 ___
 
@@ -225,4 +225,4 @@ ___
 
 #### Defined in
 
-[Visitor.ts:132](https://github.com/o-development/type-traverser/blob/db4e358/lib/Visitor.ts#L132)
+[Visitor.ts:132](https://github.com/o-development/type-traverser/blob/1da0848/lib/Visitor.ts#L132)
