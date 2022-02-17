@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export class MultiMap<Key1, Key2, Value> {
   private map: Map<Key1, Map<Key2, Value>> = new Map();
   // eslint-disable-next-line @typescript-eslint/no-inferrable-types
@@ -41,8 +42,20 @@ export class MultiMap<Key1, Key2, Value> {
     }
     return firstValue.has(key2);
   }
-  log(): void {
-    console.log(this.map);
+  toString(
+    key1Transformer: (key: Key1) => any = (key) => key,
+    key2Transformer: (key: Key2) => any = (key) => key,
+    valueTransformer: (value: Value) => any = (value) => value
+  ): string {
+    let str = "";
+    Array.from(this.map.entries()).forEach(([key1, value1]) => {
+      Array.from(value1.entries()).forEach(([key2, value2]) => {
+        str += `  [${key1Transformer(key1)}, ${key2Transformer(
+          key2
+        )}] => ${valueTransformer(value2)}\n`;
+      });
+    });
+    return str;
   }
   get size() {
     return this.internalSize;

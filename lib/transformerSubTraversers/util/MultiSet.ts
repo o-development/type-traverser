@@ -46,6 +46,18 @@ export class MultiSet<Key1, Key2> {
     });
     return newMultiSet;
   }
+  toString(
+    key1Transformer: (key: Key1) => any = (key) => key,
+    key2Transformer: (key: Key2) => any = (key) => key
+  ) {
+    const multiSetValues: string[] = [];
+    this.forEach((item1, item2) => {
+      multiSetValues.push(
+        `(${key1Transformer(item1)},${key2Transformer(item2)})`
+      );
+    });
+    return `${multiSetValues.join(",")}`;
+  }
   forEach(callback: (key1: Key1, key2: Key2) => void) {
     this.map.forEach((key2Set, key1) => {
       key2Set.forEach((key2) => {

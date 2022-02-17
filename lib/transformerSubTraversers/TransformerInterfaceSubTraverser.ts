@@ -117,6 +117,7 @@ export async function transformerInterfaceSubTraverser<
       resolveSuperPromise();
     } catch (err) {
       reject(err);
+      resolveSuperPromise(err);
     }
   });
 }

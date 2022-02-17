@@ -72,6 +72,7 @@ export async function transformerUnionSubTraverser<
       resolveSuperPromise();
     } catch (err) {
       reject(err);
+      resolveSuperPromise(err);
     }
   });
 }
