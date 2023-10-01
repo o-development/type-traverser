@@ -1,3 +1,5 @@
+> :warning: **This repository is archived**: It's contents have been moved to a new [monorepo](https://github.com/o-development/ldo/).
+
 # Type Traverser
 
 An organized way to traverse objects using typescript.
